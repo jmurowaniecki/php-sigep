@@ -58,9 +58,10 @@ class Config
 	 */
 	public function getWsdlAtendeCliente()
 	{
+		die('-----');
 		return 'http://sigep.correios.com.br/sigep/update/AtendeClienteService.wsdl';
 	}
-	
+
 	/**
 	 * @return string
 	 */
